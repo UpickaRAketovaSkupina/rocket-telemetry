@@ -1,4 +1,4 @@
-update=Pá 19. září 2014, 21:18:39 CEST
+update=Út 4. srpen 2015, 11:56:33 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -74,3 +74,4 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+LibName32=mlab_header

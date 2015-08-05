@@ -1,45 +1,45 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-18 BZR 5141)-product   date = So 20. září 2014, 01:25:13 CEST
-
-BeginCmp
-TimeStamp = /540DF1FA;
-Reference = BT1;
-ValeurCmp = BATTERY;
-IdModule  = Coin Cell Holder:Coin_Cell_Holder_CH25-2032LF;
-EndCmp
+Cmp-Mod V01 Created by Cvpcb (2015-04-05 BZR 5577)-product   date = Út 4. srpen 2015, 12:27:43 CEST
 
 BeginCmp
 TimeStamp = /540E052B;
 Reference = C1;
 ValeurCmp = 2.2uF;
-IdModule  = Capacitors_SMD:C_0805;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /540DF1E1;
 Reference = C2;
 ValeurCmp = 100uF;
-IdModule  = Capacitors_SMD:C_0805;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /541CBBDE;
 Reference = C3;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0805;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /541CBE70;
 Reference = C4;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0805;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55C09A0F;
+Reference = J1;
+ValeurCmp = HEADER_1x02;
+IdModule  = Mlab_Pin_Headers:Angled_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /540F4A49;
 Reference = P1;
 ValeurCmp = CONNECTOR;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+IdModule  = Mlab_Pin_Headers:Angled_1x01;
 EndCmp
 
 BeginCmp
@@ -57,10 +57,24 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /540E03D6;
-Reference = TH1;
+TimeStamp = /55C094EC;
+Reference = R3;
 ValeurCmp = 1k5;
-IdModule  = Capacitors_ThroughHole:Capacitor7x3-5RM5_RevB;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55C0A1D0;
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55C09DAD;
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
